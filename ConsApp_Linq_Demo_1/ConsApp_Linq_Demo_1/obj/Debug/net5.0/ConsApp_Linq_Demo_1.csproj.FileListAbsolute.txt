@@ -1,0 +1,16 @@
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\bin\Debug\net5.0\ConsApp_Linq_Demo_1.exe
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\bin\Debug\net5.0\ConsApp_Linq_Demo_1.deps.json
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\bin\Debug\net5.0\ConsApp_Linq_Demo_1.runtimeconfig.json
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\bin\Debug\net5.0\ConsApp_Linq_Demo_1.runtimeconfig.dev.json
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\bin\Debug\net5.0\ConsApp_Linq_Demo_1.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\bin\Debug\net5.0\ref\ConsApp_Linq_Demo_1.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\bin\Debug\net5.0\ConsApp_Linq_Demo_1.pdb
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.csproj.AssemblyReference.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.AssemblyInfoInputs.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.AssemblyInfo.cs
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.csproj.CoreCompileInputs.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ref\ConsApp_Linq_Demo_1.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.pdb
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_Demo_1\ConsApp_Linq_Demo_1\obj\Debug\net5.0\ConsApp_Linq_Demo_1.genruntimeconfig.cache
