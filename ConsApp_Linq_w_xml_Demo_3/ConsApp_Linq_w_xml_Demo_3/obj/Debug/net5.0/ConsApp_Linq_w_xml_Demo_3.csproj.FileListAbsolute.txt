@@ -1,0 +1,16 @@
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\bin\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.exe
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\bin\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.deps.json
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\bin\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.runtimeconfig.json
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\bin\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.runtimeconfig.dev.json
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\bin\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\bin\Debug\net5.0\ref\ConsApp_Linq_w_xml_Demo_3.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\bin\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.pdb
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.csproj.AssemblyReference.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.AssemblyInfoInputs.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.AssemblyInfo.cs
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.csproj.CoreCompileInputs.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ref\ConsApp_Linq_w_xml_Demo_3.dll
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.pdb
+C:\Users\william.frazier\Documents\c_sharp_practice\ConsApp_Linq_w_xml_Demo_3\ConsApp_Linq_w_xml_Demo_3\obj\Debug\net5.0\ConsApp_Linq_w_xml_Demo_3.genruntimeconfig.cache
