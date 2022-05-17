@@ -1,0 +1,34 @@
+﻿<!-- NOTE: you can do the coding in xaml, but you can also do the same type of coding using C# -->
+    
+    <!-- xmlns = xml namespace -->
+<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Practice_01"
+        mc:Ignorable="d"
+        Title="MyFirstGui" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="350,200,0,0" TextWrapping="Wrap" Text="Hello Bahamut" VerticalAlignment="Top" Width="91"/>
+        <Label Content="//Challenge: change hello world to hello name&#xD;&#xA;   and change mainwindow to myfirstgui" HorizontalAlignment="Left" Margin="233,86,0,0" VerticalAlignment="Top" Width="388" Height="49"/>
+        <!-- coding button by hand; after coding the button, drag it to where you want and resize it -->
+        <Button Content="click me!" Margin="308,242,323.333,139.667"></Button>
+        <Button Content="click me2!" Margin="308,300,400.333,77.667"></Button>
+        <Button>
+            <Button.Width>200</Button.Width>
+            <Button.Height>100</Button.Height>
+            <Button.FontSize>24</Button.FontSize>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Aqua">multi text</TextBlock>
+                    <TextBlock Foreground="DarkBlue">multi text</TextBlock>
+                    <TextBlock Foreground="DarkRed">multi text</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+</Window>
