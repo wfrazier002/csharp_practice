@@ -1,0 +1,76 @@
+﻿<Window x:Class="Wpf_Practice14_triggers_data_props_events.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Practice14_triggers_data_props_events"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <Grid>
+            <TextBlock FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center">hello earth
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Foreground" Value="darkgreen"></Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="DarkViolet"></Setter>
+                                <Setter Property="FontStyle" Value="Italic"></Setter>
+                                <Setter Property="FontWeight" Value="ExtraBold"></Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>
+        <Grid>
+            <TextBlock FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">hey buddy, how's it going?
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <!-- fire this event whenever the mouse enters the text block that is associated w/ this text; similar to the above style trigger w/ mouse over -->
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <!-- during this animation, do the following over the amt of time provided; time is set as hr:min:sec.millsec; storyboard.targetproperty is like trigger setter property -->
+                                            <DoubleAnimation Duration="0:0:1.5" Storyboard.TargetProperty="FontSize" To="66"></DoubleAnimation>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <EventTrigger.Actions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0:0:1" Storyboard.TargetProperty="FontSize" To="16"></DoubleAnimation>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger.Actions>
+                            </EventTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <CheckBox Name="cbHello">is anyone home?</CheckBox>
+            <TextBlock HorizontalAlignment="Center" FontSize="36">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Text" Value="No"></Setter>
+                        <Setter Property="Foreground" Value="DarkRed"></Setter>
+                        <Style.Triggers>
+                            <!-- datatrigger needs to be bound to another element to work -->
+                            <!-- in this case, check to see if the checkbox named cbHello is checked -->
+                            <DataTrigger Binding="{Binding ElementName=cbHello, Path=IsChecked}" Value="True">
+                                <Setter Property="Text" Value="Hello...my friend...do you see me anymore...."></Setter>
+                                <Setter Property="Foreground" Value="DarkViolet"></Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>

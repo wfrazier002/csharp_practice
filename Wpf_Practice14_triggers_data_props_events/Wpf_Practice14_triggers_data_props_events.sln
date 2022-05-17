@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Practice14_triggers_data_props_events", "Wpf_Practice14_triggers_data_props_events\Wpf_Practice14_triggers_data_props_events.csproj", "{34B6ACB1-7BF1-4B2E-9C97-1F3C56DD7405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34B6ACB1-7BF1-4B2E-9C97-1F3C56DD7405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B6ACB1-7BF1-4B2E-9C97-1F3C56DD7405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B6ACB1-7BF1-4B2E-9C97-1F3C56DD7405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B6ACB1-7BF1-4B2E-9C97-1F3C56DD7405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {817CB3E3-3BF8-4241-AA37-896A48CA3F52}
+	EndGlobalSection
+EndGlobal
