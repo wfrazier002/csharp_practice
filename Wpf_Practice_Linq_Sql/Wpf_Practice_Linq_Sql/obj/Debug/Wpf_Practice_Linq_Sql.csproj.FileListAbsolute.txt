@@ -1,0 +1,15 @@
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\bin\Debug\Wpf_Practice_Linq_Sql.exe.config
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\bin\Debug\Wpf_Practice_Linq_Sql.exe
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\bin\Debug\Wpf_Practice_Linq_Sql.pdb
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql.csproj.AssemblyReference.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\MainWindow.g.cs
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\App.g.cs
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql_MarkupCompile.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql_MarkupCompile.lref
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\MainWindow.baml
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql.g.resources
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql.Properties.Resources.resources
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql.csproj.GenerateResource.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql.csproj.CoreCompileInputs.cache
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql.exe
+C:\Users\william.frazier\Documents\c_sharp_practice\Wpf_Practice_Linq_Sql\Wpf_Practice_Linq_Sql\obj\Debug\Wpf_Practice_Linq_Sql.pdb
