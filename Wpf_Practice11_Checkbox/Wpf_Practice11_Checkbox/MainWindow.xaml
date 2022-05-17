@@ -1,0 +1,23 @@
+﻿<Window x:Class="Wpf_Practice11_Checkbox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Practice11_Checkbox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label FontWeight="Bold">Pizza Toppings</Label>
+        <!-- isthreestate = true ==> this checkbox is connected to all other checkboxes made -->
+        <CheckBox Name="checkboxAllToppings" IsThreeState="True" Checked="checkboxAllToppings_Checked" Unchecked="checkboxAllToppings_Checked">All Toppings</CheckBox>
+        <!-- add another stackpanel here to have the following ckboxes look like they are a subgroup of the all toppings one -->
+        <StackPanel Margin="15" Name="childrenCheckboxes">
+            <CheckBox Name="checkboxsalami" Checked="singleCheckBoxChecked" Unchecked="singleCheckBoxChecked">salami</CheckBox>
+            <CheckBox Name="checkboxbacon" Checked="singleCheckBoxChecked" Unchecked="singleCheckBoxChecked">bacon</CheckBox>
+            <CheckBox Name="checkboxpepperoni" Checked="singleCheckBoxChecked"  Unchecked="singleCheckBoxChecked">pepperoni</CheckBox>
+            <CheckBox Name="checkboxolives" Checked="singleCheckBoxChecked"  Unchecked="singleCheckBoxChecked">olives</CheckBox>
+            <CheckBox Name="checkboxonions" Checked="singleCheckBoxChecked"  Unchecked="singleCheckBoxChecked">onions</CheckBox>
+            <CheckBox Name="checkboxcheese" Checked="singleCheckBoxChecked"  Unchecked="singleCheckBoxChecked">cheese</CheckBox>
+        </StackPanel>
+    </StackPanel>
+</Window>

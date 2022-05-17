@@ -1,0 +1,24 @@
+﻿<Window x:Class="Wpf_Practice10_Combobox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Practice10_Combobox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <ComboBox Name="comboBoxColors">
+            <!-- combobox.itemtemplate needs datatemplate in it or it complains -->
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <!-- the Name property will be created in the background (via code we make) -->
+                        <Rectangle Fill="{Binding Name}" Height="32" Width="32" Margin="5"></Rectangle>
+                        <TextBlock Text="{Binding Name}" FontSize="32"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        
+    </StackPanel>
+</Window>
