@@ -1,0 +1,38 @@
+﻿<Window x:Class="Wpf_Practice7_DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Practice7_DataBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!-- there are 4 different data binding modes:
+        binding target <- oneway binding source
+        binding target <- twoway -> binding source
+        binding target  onewaytosource -> binding source
+        binding target <- onetime binding source (done in constructor so only done during initialization)
+    -->
+    <StackPanel>
+        <!--<TextBox Width="100" Margin="50" Text="9999" TextAlignment="Right" VerticalContentAlignment="Center"></TextBox>-->
+        <!-- one way bind: for text input, do text= "{Binding ElementName=mySlider, Path=Value, Mode=OneWay}"-->
+        <!-- slider is source, textbox is target -->
+        <!--<TextBox Width="100" Margin="50" Text="{Binding ElementName=mySlider, Path=Value, Mode=OneWay}" TextAlignment="Right" VerticalContentAlignment="Center"></TextBox>
+        <Slider x:Name="mySlider" Minimum="0" Maximum="100" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" IsSnapToTickEnabled="True"></Slider>-->
+        <!-- two way (have to tab out of box after entering a number to move the slider) -->
+        <!-- slider is source, textbox is target -->
+        <!--<TextBox Width="100" Margin="50" Text="{Binding ElementName=mySlider, Path=Value, Mode=TwoWay}" TextAlignment="Right" VerticalContentAlignment="Center"></TextBox>
+        <Slider x:Name="mySlider" Minimum="0" Maximum="100" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" IsSnapToTickEnabled="True"></Slider>-->
+        <!-- onewaytosource (in this case, only input from the textbox works <- still have to tab after inputing value for it to feed to/affect the slider)-->
+        <!-- slider is source, textbox is target -->
+        <!--<TextBox Width="100" Margin="50" Text="{Binding ElementName=mySlider, Path=Value, Mode=OneWayToSource}" TextAlignment="Right" VerticalContentAlignment="Center"></TextBox>
+        <Slider x:Name="mySlider" Minimum="0" Maximum="100" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" IsSnapToTickEnabled="True"></Slider>-->
+        <!-- onetimemode: this mode will need some code written as it is done during initialization -->
+        <!-- slider is source, textbox is target -->
+        <!--<TextBox Name="myTextBox" Width="100" Margin="50" Text="{Binding ElementName=mySlider, Path=Value, Mode=OneTime}" TextAlignment="Right" VerticalContentAlignment="Center"></TextBox>
+        <Slider Name="mySlider" Minimum="0" Maximum="100" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" IsSnapToTickEnabled="True"></Slider>-->
+        <!-- two way but you don't have to press tab this time (change updatesourcetrigger to change that behavior) -->
+        <!-- slider is source, textbox is target -->
+        <TextBox Name="myTextBox" Width="100" Margin="50" Text="{Binding ElementName=mySlider, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Right" VerticalContentAlignment="Center"></TextBox>
+        <Slider Name="mySlider" Minimum="0" Maximum="100" AutoToolTipPlacement="BottomRight" AutoToolTipPrecision="0" IsSnapToTickEnabled="True"></Slider>
+    </StackPanel>
+</Window>
