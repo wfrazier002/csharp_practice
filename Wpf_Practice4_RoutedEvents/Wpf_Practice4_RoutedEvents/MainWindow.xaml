@@ -1,0 +1,15 @@
+﻿<!-- there are 3 types of events: direct, bubbling, and tunneling -->
+<Window x:Class="Wpf_Practice4_RoutedEvents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Practice4_RoutedEvents"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="click me!" Height="100" Width="100" Click="Button_Click" MouseUp="Button_MouseUp_1" Margin="-301,-159,301,159"/>
+        <Button Content="click me2!" Height="100" Width="100" PreviewMouseUp="Button_PreviewMouseUp" Margin="564,1,129.333,319.667"/>
+        <Button Content="click me3!" Height="100" Width="100" PreviewMouseLeftButtonDown="Button_PreviewMouseLeftButtonDown" PreviewMouseRightButtonUp="Button_PreviewMouseRightButtonUp" Margin="321,175,372.333,145.667"/>
+    </Grid>
+</Window>
